@@ -18,6 +18,7 @@ h2 {
   font-size: 25px;
 }
 
+/* Put padding in h3 to increase space between content and border. Used margin-left and margin-right to increase distance from edges of border to sides of web page*/
 h3 {
   font-family: Garamond, serif;
   font-size: 22px;
@@ -49,13 +50,14 @@ ul, ol {
 
 /* Used pseudo-classes to change the color of the link text during different actions such as when cursor hovers over it or clicks on it*/
 ol a:link {
-  color: aqua;
+  color: black;
 }
 
 ol a:visited{
   color: orange;
 }
 
+/* Added font-weight to increase thickness of link text when user hovers over it*/
 ol a:hover {
   color: aquamarine;
   font-weight: 900;
@@ -69,6 +71,7 @@ main {
   background-color: lightslategray ;
 }
 
+/* Made hr the same color as the borders of h3 and text of header and footer to follow color pattern*/
 hr {
   border: 2px solid aquamarine;
   width: 95%;
